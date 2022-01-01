@@ -1,9 +1,15 @@
 module github.com/asciimoo/morty
 
-go 1.14
+go 1.17
 
 require (
-	github.com/valyala/fasthttp v1.21.0
-	golang.org/x/net v0.0.0-20201016165138-7b1cca2348c0
-	golang.org/x/text v0.3.3
+	github.com/valyala/fasthttp v1.31.0
+	golang.org/x/net v0.0.0-20211216030914-fe4d6282115f
+	golang.org/x/text v0.3.7
+)
+
+require (
+	github.com/andybalholm/brotli v1.0.2 // indirect
+	github.com/klauspost/compress v1.13.4 // indirect
+	github.com/valyala/bytebufferpool v1.0.0 // indirect
 )
